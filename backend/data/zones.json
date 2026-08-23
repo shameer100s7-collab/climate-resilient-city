@@ -1,0 +1,23 @@
+{
+  "_comment": "Real district-level coordinates across Tamil Nadu. historical_flood_frequency is a rough starting estimate based on recent well-documented flood events (2015, 2021, 2023, 2024) -- refine these numbers once you pull exact counts from INDOFLOODS/IFI-Impacts for each district. drainage_capacity_score is still a placeholder (0-1) you should replace with your own local estimate per zone. phone_numbers must be real, Twilio-verified numbers. imd_district_obj_id is IMD's own internal district id (NOT filled in here -- fabricating one would silently pull the wrong district's warnings). Get the real value per district from https://mausam.imd.gov.in/responsive/districtWiseWarningGIS.php (devtools -> Network tab -> districtwarning?id=... while selecting your district) and set it below; until then that zone's 'imd_warning' field will honestly report itself as not configured instead of guessing.",
+  "zones": [
+    {"id": "chennai", "name": "Chennai", "lat": 13.0827, "lon": 80.2707, "drainage_capacity_score": 0.4, "historical_flood_frequency": 9, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "coimbatore", "name": "Coimbatore", "lat": 11.0168, "lon": 76.9558, "drainage_capacity_score": 0.7, "historical_flood_frequency": 2, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "madurai", "name": "Madurai", "lat": 9.9252, "lon": 78.1198, "drainage_capacity_score": 0.6, "historical_flood_frequency": 3, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "tiruchirappalli", "name": "Tiruchirappalli (Trichy)", "lat": 10.7905, "lon": 78.7047, "drainage_capacity_score": 0.6, "historical_flood_frequency": 4, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "salem", "name": "Salem", "lat": 11.6643, "lon": 78.1460, "drainage_capacity_score": 0.65, "historical_flood_frequency": 2, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "tirunelveli", "name": "Tirunelveli", "lat": 8.7139, "lon": 77.7567, "drainage_capacity_score": 0.35, "historical_flood_frequency": 9, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "vellore", "name": "Vellore", "lat": 12.9165, "lon": 79.1325, "drainage_capacity_score": 0.5, "historical_flood_frequency": 5, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "erode", "name": "Erode", "lat": 11.3410, "lon": 77.7172, "drainage_capacity_score": 0.65, "historical_flood_frequency": 2, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "thanjavur", "name": "Thanjavur", "lat": 10.7870, "lon": 79.1378, "drainage_capacity_score": 0.5, "historical_flood_frequency": 6, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "thoothukudi", "name": "Thoothukudi", "lat": 8.7642, "lon": 78.1348, "drainage_capacity_score": 0.35, "historical_flood_frequency": 8, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "kanyakumari", "name": "Kanyakumari", "lat": 8.0883, "lon": 77.5385, "drainage_capacity_score": 0.4, "historical_flood_frequency": 7, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "cuddalore", "name": "Cuddalore", "lat": 11.7480, "lon": 79.7714, "drainage_capacity_score": 0.35, "historical_flood_frequency": 8, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "nagapattinam", "name": "Nagapattinam", "lat": 10.7672, "lon": 79.8449, "drainage_capacity_score": 0.35, "historical_flood_frequency": 7, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "dindigul", "name": "Dindigul", "lat": 10.3624, "lon": 77.9695, "drainage_capacity_score": 0.6, "historical_flood_frequency": 3, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "tiruvannamalai", "name": "Tiruvannamalai", "lat": 12.2253, "lon": 79.0747, "drainage_capacity_score": 0.55, "historical_flood_frequency": 4, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "ariyalur", "name": "Ariyalur", "lat": 11.1401, "lon": 79.0782, "drainage_capacity_score": 0.4, "historical_flood_frequency": 6, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "chengalpattu", "name": "Chengalpattu", "lat": 12.6819, "lon": 79.9888, "drainage_capacity_score": 0.4, "historical_flood_frequency": 6, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null},
+    {"id": "kanchipuram", "name": "Kanchipuram", "lat": 12.8342, "lon": 79.7036, "drainage_capacity_score": 0.45, "historical_flood_frequency": 5, "phone_numbers": ["+91XXXXXXXXXX"], "imd_district_obj_id": null}
+  ]
+}
